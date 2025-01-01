@@ -23,6 +23,7 @@ Design thinking is a user-centred approach to innovation that establishes effect
 In particular, design thinking involves empathising with stakeholders to understand their workflows, habits and frustrations. Hence, following some user research, the image below portrays an empathy map. This collaborative visualisation articulates our target user’s (cabin crew) environment, which can be mapped to formulate the requirements of our app, and aid future decision making: 
 
 ![Meal Inventory App - Project Scoping: EMPATHY MAP](https://github.com/user-attachments/assets/bb7bc84d-9c31-4929-a737-e8bec288d5a3)
+_Figure 1: An empathy map created in Miro. A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 
 As shown, the app’s target persona manages numerous responsibilities, form ensuring safety and security to delivering exceptional customer service, all within a tight, crowded workspace. The fast-paced, noisy environment, coupled with the pressure of customer demands, could easily overwhelm crew members, complicating such tasks like meal inventory tracking or communicating with colleagues. 
 
