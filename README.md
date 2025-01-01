@@ -21,7 +21,7 @@ Below is an example of a retrospective carried out at the end of sprint 1.  This
 Design thinking is a user-centred approach to innovation that establishes effective business models by focusing on the needs of people. These methods allow developers a deep understanding to the needs and challenges their stakeholders face, sparking creative solutions in early stages of design, and resulting in a highly functional product. Adopting this approach for the meal inventory app ensures the design is supplemented by a mindset that’ll constantly assess its viability (Mueller-Roterberg, 2020). 
 
 In particular, design thinking involves empathising with stakeholders to understand their workflows, habits and frustrations. Hence, following some user research, the image below portrays an empathy map. This collaborative visualisation articulates our target user’s (cabin crew) environment, which can be mapped to formulate the requirements of our app, and aid future decision making: 
-![Empathy Map] (Meal Inventory App - Project Scoping: EMPATHY MAP.jpg)
+![Meal Inventory App - Project Scoping: EMPATHY MAP](https://github.com/user-attachments/assets/bb7bc84d-9c31-4929-a737-e8bec288d5a3)
 
 
 
