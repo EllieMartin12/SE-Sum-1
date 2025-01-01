@@ -17,5 +17,12 @@ To implement agile principles in the project, I have utilised GitHub as a projec
 
 Below is an example of a retrospective carried out at the end of sprint 1.  This creates space to reflect on progress, discuss working habits and set targets for the next sprint. All of which continuously shape the team into more efficient software developers, and hence leads to the production of a more successful product (Derby, Larsen and Horowitz, 2024). 
 
+## Project Scoping Methods
+Design thinking is a user-centred approach to innovation that establishes effective business models by focusing on the needs of people. These methods allow developers a deep understanding to the needs and challenges their stakeholders face, sparking creative solutions in early stages of design, and resulting in a highly functional product. Adopting this approach for the meal inventory app ensures the design is supplemented by a mindset that’ll constantly assess its viability (Mueller-Roterberg, 2020). 
+
+In particular, design thinking involves empathising with stakeholders to understand their workflows, habits and frustrations. Hence, following some user research, the image below portrays an empathy map. This collaborative visualisation articulates our target user’s (cabin crew) environment, which can be mapped to formulate the requirements of our app, and aid future decision making: 
+![Empathy Map] (Meal Inventory App - Project Scoping: EMPATHY MAP.jpg)
+
+
 
 
