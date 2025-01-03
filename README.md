@@ -30,12 +30,14 @@ As shown, the app’s target persona manages numerous responsibilities, form ens
 In the ideation phase, these pains and gains translate into key requirements for the app: it must be simple, intuitive and stress-free to use, seamlessly synchronising across devices to reduce reliance on verbal communication amongst staff. Insights from the empathy map further highlight the priority of these requirements, outlined in the diagram below: 
 
 ![Meal Inventory App - Project Scoping: PROJECT REQUIREMENTS](https://github.com/user-attachments/assets/a6263310-1a45-4ff3-a446-39dfe15d7635)
+_Figure 2: The functional and non-functional requirements of the project, as identified from the empathy map findings, prioritised (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 
 We can conclude the highest priority is to deliver an app with a simple inventory view, and editing functionality. Next, the focus should shift to enhancing the usability and accessibility through colour coding, visualisations and multi-language support. In the long term, the app brings potential to expand its audience to include caterers and managers in the airline, offering insights into product demand. This would enable the company to make informed decisions about supplier partnerships and meal loading quantities, better aligning onboard availability to passenger preferences. These improvements would not only minimise waste – supporting the airlines et carbon zero sustainability goal, but also enhance customer satisfaction and retention. 
 
 These requirements are structured using a Now, Next, Later framework, offering clear expectations, success criteria, and a roadmap for the project’s future development (Brereton, 2022). This also helps shape the components of each sprint when project planning: 
 
 ![Meal Inventory App - Project Scoping: NOW NEXT LATER](https://github.com/user-attachments/assets/a26bd1d6-c29d-4fe2-99a1-1f1bb2fc7f17)
+_Figure 3: A 'Now, Next, Later' visual to portray how and when the  prioritised requirements for the app will be met (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 
 
 
