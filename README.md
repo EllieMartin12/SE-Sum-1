@@ -39,6 +39,46 @@ These requirements are structured using a Now, Next, Later framework, offering c
 ![Meal Inventory App - Project Scoping: NOW NEXT LATER](https://github.com/user-attachments/assets/a26bd1d6-c29d-4fe2-99a1-1f1bb2fc7f17)
 _Figure 3: A 'Now, Next, Later' visual to portray how and when the  prioritised requirements for the app will be met (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 
+## Designs & Prototypes
+Design bridges the gap between conceptual ideas and functional application. Hence, physical models such as mock-ups and prototypes allow developers to visualise and test their ideas before building the final product. This not only facilitates valuable user feedback, but also mitigates the risk of investing extensive resources into a design that may prove unsuccessful (Korsakoff, et al., 2020). 
+Therefore, I first took initial ideas and sketched a low-fidelity prototype. This isn’t faithful to details of the look, feel and behaviour of the app, but rather gives a high-level abstract view of the intended design, which (at this point) is subject to change: 
+
+![Lo-fi Design](https://github.com/EllieMartin12/SE-Sum-1/blob/EllieMartin12-Prototype/LO-FI%20Design.jpg) 
+
+
+_Figure 4: An initial, low fidelity sketch of the app_
+
+As shown, the low-fi design indicates a clear, user-friendly design. Equipped with a straightforward login page, the app will then transition to an inventory tracker where meal counts are logically and visually shown. The use of colours helps differentiate between meals, enhancing usability, whilst pie charts allow data to be interpreted at a glance (Hartson and Pyla, 2019). 
+
+After presenting this sketch to stakeholders and receiving positive feedback, I progressed to creating a more high-fidelity wireframe using Figma (Figure 5). This tool delivers an interactive, digital prototype, enabling designers to reach a high degree of precision that aligns with the functional objectives of the project. By stimulating user experience (UX), developers are provided with a clear vision of the end goal throughout the coding process, whilst stakeholders can explore and evaluate how the final product will behave and respond to their inputs, fostering a deeper understanding and stronger alignment with user expectations (Salvendy and Karwowski, 2021). 
+
+![Figma Screen](https://github.com/user-attachments/assets/af938082-93b7-4713-8d5a-4e42110211c1)
+_Figure 5: A high fidelity prototype of the app, developed in Figma. A Link to this design can be found here:_ [View Figma Design ](https://www.figma.com/proto/4e4nEptFLp7OykTWSjwz27/SE-Summative-1?node-id=601-9&t=YuXhqKT2aP9C4IYl-1)
+
+As illustrated, multiple views have been designed to showcase the apps appearance and functionality, meeting many of the goals outlined in the now, next, later framework above. 
+
+The login page includes fields for the username and password, with serval variants to simulate how these text boxes will dynamically appear at different stages of the UX. Additionally, the login page features a “Change Language” button which, when clicked, opens a language selector pop-up, catering for the worldwide placement of cabin crew. For users encountering login difficulties, a call-to-action button directs them to a form to report issues (Figure 6). 
+
+![Form 1](https://github.com/user-attachments/assets/95e777b9-d8ea-4176-8908-ee71d6e50682)
+_Figure 6: To improve user experience, a form has been created where cabin crew can log issues they're having, particularly with logging in. To view the form, click here:_ [View Isue Tracking Form](https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZURTUxT0EzQ0swODdGUEtSVkk4NzNTNkYzUS4u)
+
+Upon logging in, the dashboard provides an intuitive overview of meal inventory, aligned with common reading habits. Content is arranged in order of decreasing significance, guiding the viewers’ attention towards the most critical information, and hence allowing crew to easily scan and interpret the data quickly (a key requirement for our ‘on-the-go’, busy persona) (Schwabish, 2012). E.g., key information such as date and flight number are prominently displayed at the top, allowing crew to ensure the app is up-to-date and that they’re viewing the correct data. The rest of the content includes example meal options such as “Chicken & Rice” and “Spaghetti & Meatballs” which’ll be expressed as clickable buttons to automatically subtract one from inventory. Inventory levels are then displayed in large, bold numbers, with a green-red colour scheme that visually reflects remaining quantities.
+
+To enhance accessibility, the dashboard includes a colour vision deficiency (CVD) mode, activated via the “CVD Friendly” button (Nichols, n.d.). This inclusivity ensures the app is usable and effective for all users, regardless of visual impairments. 
+
+Building on the low-fi design, this prototype introduces a third view, containing functionality for users to add inventory, addressing the scenario in which additional meals are loaded unexpectedly, or crew mistakenly miscount inventory. On this page, users will also be able to seamlessly switch between flights (updating the app with each shift). Finally, a feedback link at the bottom provides an avenue for crew to share their ideas, insights and criticisms, fostering continuous improvement, and ensuring the app remains user-centric throughout its development (utilising the design thinking approach) (Figure 7). 
+
+![Form 2](https://github.com/user-attachments/assets/2bfc3c84-c466-4289-aed1-a032af2dc4f1)
+_Figure 7: A vital part of the iterative development process is continuous feeddback. Hence, the prototype includes a form where users can express their likes and dislikes on the product. To view the form, click here:_ [View Feedback Form](https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZUMldFRlVZUzdZTVBXMFI0S1MzUTdIRzBLTy4u)
+
+Using Figma’s previewing ability, the following video demonstrates the app prototype, displaying how the final product will appear on mobiles: 
+
+
+![GIF](https://github.com/EllieMartin12/SE-Sum-1/blob/EllieMartin12-Prototype/Figma%20Design%20x1.5.gif)
+
+_Figure 8: A GIF demonstration of the Apps Prototype. To view this iin video form (which is also slightly slower), please click here:_ [DropBox Link to Video](https://www.dropbox.com/scl/fi/dmtddlj5gvi7umy6c5ta6/App-Prototype-Demo-Figma.mov?rlkey=ghj9ta90h2gkjdgs95zsftwl3&st=f7d4qckz&dl=0)
+
+This prototype acts as a tangible platform for testing and refining functionality, setting a solid foundation for the successful launch of the application. Without which, we risk misaligned visions, poor usability, and wasted time and costs to the company. 
 
 
 
