@@ -4,53 +4,51 @@ body {
     padding: 0;
     background-color: #f2f2f2;
 }
-
+  
 .login-container {
     max-width: 400px;
     margin: 50px auto;
-    background-color: #FFF;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
 }
-
+  
 .login-header h1 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 20px;
+    background-color: #FF8D8D; /* Light red background */
+    padding: 10px;
+    border-radius: 5px; /* Optional: adds rounded corners */
 }
-
+  
 .login-form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
-
-.input-field {
-    margin-bottom: 20px; 
+  
+.input-container {
+    margin-bottom: 15px;
     position: relative;
 }
-
-.input-container {
-    margin-bottom: 15px; 
-}
-
-.input-field label {
-    display: block;
-    font-size: 0.9rem;
-    margin-bottom: 5px; 
-    color: #666;
-}
-
-.input-field input {
-    width: 100%;
-    padding: 10px;
+  
+.input-container input {
+    width: 100%;          /* Full width */
+    padding: 15px;       /* Increased padding for larger input */
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    box-sizing: border-box; /* Ensure padding is included in total width */
 }
-
+  
+.input-container input:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+  
 .error-message {
     display: none;
     font-size: 0.8rem;
@@ -59,7 +57,7 @@ body {
     bottom: -20px;
     left: 0;
 }
-
+  
 .login-button {
     background-color: #63BD51;
     color: #fff;
@@ -68,20 +66,15 @@ body {
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px; 
 }
-
-.login-button:hover {
-    background-color: #63BD51;
-}
-
+  
 .help-section a {
     display: block;
     margin-top: 15px;
     color: #007bff;
     text-decoration: none;
 }
-
+  
 .help-section a:hover {
     text-decoration: underline;
 }
