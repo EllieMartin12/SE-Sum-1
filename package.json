@@ -1,0 +1,22 @@
+{
+  "name": "se-sum-1",
+  "version": "1.0.0",
+  "description": "## Introduction The oligopolistic nature of the modern airline industry intensifies competition amongst its most dominant firms, making them interdependent on one another, and bringing about the need for strategic behaviour. As various airlines fly the same routes, product differentiation can only occur via customer experience. Hence, in such an environment, it’s crucial to maintain a high customer satisfaction (CSAT) to not only increase customer retention but to improve brand image, attracting new customers and increasing the airlines market power. Subsequently, establishing loyalty in customers enables a shift towards more inelastic prices, further increasing revenue (Siegert and Ulbricht, 2020).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EllieMartin12/SE-Sum-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EllieMartin12/SE-Sum-1/issues"
+  },
+  "homepage": "https://github.com/EllieMartin12/SE-Sum-1#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
