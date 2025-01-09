@@ -19,9 +19,9 @@ body {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 20px;
-    background-color: #FF8D8D; /* Light red background */
+    background-color: #FF8D8D; 
     padding: 10px;
-    border-radius: 5px; /* Optional: adds rounded corners */
+    border-radius: 5px; 
 }
   
 .login-form {
@@ -36,12 +36,12 @@ body {
 }
   
 .input-container input {
-    width: 100%;          /* Full width */
-    padding: 15px;       /* Increased padding for larger input */
+    width: 100%;   
+    padding: 15px;      
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    box-sizing: border-box; /* Ensure padding is included in total width */
+    box-sizing: border-box; 
 }
   
 .input-container input:focus {
