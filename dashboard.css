@@ -3,59 +3,88 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
     background-color: #f4f4f9;
 }
 
 .dashboard {
-    margin-top: 20px;
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.date, .flight-number {
-    margin: 10px 0;
+.date {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.flight-number {
     font-size: 20px;
     font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.meal-item {
+    text-align: center;
 }
 
 .meal {
-    margin: 20px 0;
+    width: 140px;
+    height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
-    background: #f9f9f9;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
-
-.meal-name {
-    font-size: 16px;
-}
-
-.meal-button {
-    padding: 5px 10px;
-    background-color: #4CAF50;
+    background-color: #FFA726;
+    border: 2px solid #333;
+    border-radius: 8px;
     color: white;
-    border: none;
-    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
-.meal-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
+.meal:hover {
+    transform: scale(1.05);
+    background-color: #FB8C00;
+}
+
+.meal-spaghetti {
+    background-color: #66BB6A;
+}
+
+.meal-spaghetti:hover {
+    background-color: #43A047;
 }
 
 .remaining {
-    font-size: 14px;
+    margin-top: 10px;
+}
+
+.remaining-number {
+    font-size: 48px; 
     font-weight: bold;
     color: #333;
+    line-height: 1;
+}
+
+.remaining-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
 }

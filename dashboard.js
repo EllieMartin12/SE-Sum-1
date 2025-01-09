@@ -1,28 +1,38 @@
-// Initial meal data
-const mealData = {
-    chicken: 6,
-    spaghetti: 11
-};
+// Set the current date in the "date" element
+const dateElement = document.getElementById('date');
+const currentDate = new Date();
+const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+dateElement.textContent = currentDate.toLocaleDateString('en-UK', options);
 
-// Update meal remaining display
-function updateRemaining(meal, elementId) {
-    document.getElementById(elementId).textContent = `${mealData[meal]} Remaining`;
-    if (mealData[meal] <= 0) {
-        document.getElementById(`${meal}-btn`).disabled = true;
-    }
-}
+// Meal counts
+let chickenCount = 6;
+let spaghettiCount = 11;
 
-// Button click handlers
+// Update the count on button click
 document.getElementById('chicken-btn').addEventListener('click', () => {
-    if (mealData.chicken > 0) {
-        mealData.chicken -= 1;
-        updateRemaining('chicken', 'chicken-remaining');
+    if (chickenCount > 0) {
+        chickenCount--;
+        document.getElementById('chicken-remaining-number').textContent = chickenCount;
+    }
+    if (chickenCount === 0) {
+        disableButton('chicken-btn');
     }
 });
 
 document.getElementById('spaghetti-btn').addEventListener('click', () => {
-    if (mealData.spaghetti > 0) {
-        mealData.spaghetti -= 1;
-        updateRemaining('spaghetti', 'spaghetti-remaining');
+    if (spaghettiCount > 0) {
+        spaghettiCount--;
+        document.getElementById('spaghetti-remaining-number').textContent = spaghettiCount;
+    }
+    if (spaghettiCount === 0) {
+        disableButton('spaghetti-btn');
     }
 });
+
+// Disable button when count is zero
+function disableButton(buttonId) {
+    const button = document.getElementById(buttonId);
+    button.disabled = true;
+    button.style.backgroundColor = '#ccc';
+    button.style.cursor = 'not-allowed';
+}
