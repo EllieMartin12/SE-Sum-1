@@ -24,7 +24,7 @@ body {
 .date {
     font-size: 24px;
     font-weight: bold;
-    color: #007BFF;
+    color: #fe6666;
     margin-bottom: 10px;
 }
 
@@ -73,11 +73,11 @@ body {
 
 /* Specify colour for alternative meal option colour */
 .meal-spaghetti {
-    background-color: #66BB6A;
+    background-color: #73cbff;
 }
 /* Specify the background colour to remain the same when hovering over buttons */
 .meal-spaghetti:hover {
-    background-color: #43A047;
+    background-color: #73cbff;
 }
 
 /* Style the inventory countdown*/
@@ -89,9 +89,11 @@ body {
 .remaining-number {
     font-size: 48px; 
     font-weight: bold;
-    color: #333;
+    color: #333; /* Default color will be overridden by JavaScript */
     line-height: 1;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
 }
+
 
 .remaining-text {
     font-size: 14px;
