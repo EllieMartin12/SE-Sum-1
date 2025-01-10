@@ -14,10 +14,14 @@
     <form id="loginForm" class="login-form">
       <div class="input-container">
         <input type="text" id="username" name="username" placeholder="Username" required />
+        <!-- Error message for username -->
+        <div id="usernameError" style="display:none; color: red;">Username is required</div>
       </div>
       
       <div class="input-container">
         <input type="password" id="password" name="password" placeholder="Password" required />
+        <!-- Error message for password -->
+        <div id="passwordError" style="display:none; color: red;">Password is required</div>
       </div>
       
       <button type="submit" class="login-button">Log In</button>
