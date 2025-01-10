@@ -1,77 +1,3 @@
-
-// /* THIS JAVASCRIPT ADDS FUNCTIONALITY TO TH USER LOG IN PAGE OF THE WEB APP. */
-
-// /* 1. CREATE A FUNTION TO DEFINE THE LOGGING IN PROCESS */
-
-// function setupLogin(formElement) {
-
-//   // Define valid credentials
-//   const validUsername = "John_Smith";
-//   const validPassword = "HelloBA123";
-
-//   formElement.addEventListener("submit", function (event) {
-//       event.preventDefault();
-//       // Get user inputs, trimming any whitespace
-//       const username = document.getElementById("username").value.trim();
-//       const password = document.getElementById("password").value.trim();
-//       // call the validate credentials function, along with the user inputs
-//       const validationResult = validateCredentials(username, password, validUsername, validPassword);
-
-      
-//       // Handle validation results:
-//       // If valid, alert the user 'login successful' and redirect to dashboard view
-//       if (validationResult.isValid) {
-//           alert("Login successful!");
-//           window.location.href = "dashboard.html";
-//       // if invalid, log an error message 
-//       } else {
-//           console.log(validationResult.errorMessage);
-//       }
-//   });
-
-//   // Return valid credentials 
-//   return { validUsername, validPassword };
-// }
-
-// /* 2. CREATE A FUNCTION TO PERFORM CREDENTIAL VALIDATION */
-
-// function validateCredentials(username, password, validUsername, validPassword) {
-
-//   // Initialise variables
-//   let isValid = true;
-//   let errorMessage = "";
-
-//   // Username Validation:
-//   // First, check if username field is empty, and give error message if so
-//   if (username === "") {
-//       errorMessage = "Username is required";
-//       isValid = false;
-//   // Next, check if username matches valid username
-//   } else if (username !== validUsername) {
-//       errorMessage = "Invalid username";
-//       isValid = false;
-//   }
-
-//   // Password Validation
-//   // Check is password field is empty
-//   if (password === "") {
-//       errorMessage = "Password is required";
-//       isValid = false;
-//   // Check if password matches valid password
-//   } else if (password !== validPassword) {
-//       errorMessage = "Invalid password";
-//       isValid = false;
-//   }
-
-//   // Return validation result
-//   return { isValid, errorMessage };
-// }
-
-// /* 3. EXPORT FUNCTIONS FOR TESTING IN INDEX.TEST.JS */
-// module.exports = { setupLogin, validateCredentials };
-
-
-
 /* THIS JAVASCRIPT ADDS FUNCTIONALITY TO THE USER LOG IN PAGE OF THE WEB APP. */
 
 /* 1. CREATE A FUNCTION TO DEFINE THE LOGGING IN PROCESS */
@@ -136,7 +62,7 @@ function validateCredentials(username, password, validUsername, validPassword) {
       isValid = false;
   // Next, check if username matches valid username
   } else if (username !== validUsername) {
-      errorMessage = "Invalid username";
+      errorMessage = "Invalid Username or Password";
       isValid = false;
   }
 
@@ -147,7 +73,7 @@ function validateCredentials(username, password, validUsername, validPassword) {
       isValid = false;
   // Check if password matches valid password
   } else if (password !== validPassword) {
-      errorMessage = "Invalid password";
+      errorMessage = "Invalid Username or Password";
       isValid = false;
   }
 

@@ -21,19 +21,19 @@ test("Valid Username & Password", () => {
 test("Invalid Username", () => {
     const { isValid, errorMessage } = validateCredentials("wrongUsername", "HelloBA123", "John_Smith", "HelloBA123");
     expect(isValid).toBe(false);
-    expect(errorMessage).toBe("Invalid username");
+    expect(errorMessage).toBe("Invalid Username or Password");
 });
 
 // Test 3: Check an invalid password doesn't work, despite the correct username
 test("Invalid Password", () => {
     const { isValid, errorMessage } = validateCredentials("John_Smith", "wrongPassword", "John_Smith", "HelloBA123");
     expect(isValid).toBe(false);
-    expect(errorMessage).toBe("Invalid password");
+    expect(errorMessage).toBe("Invalid Username or Password");
 });
 
 // Test 4: Ensure that the credential validation is case sensitive
 test("Lower Case Credentials", () => {
     const { isValid, errorMessage } = validateCredentials("john_smith", "HelloBA123", "John_Smith", "HelloBA123");
     expect(isValid).toBe(false);
-    expect(errorMessage).toBe("Invalid username");
+    expect(errorMessage).toBe("Invalid Username or Password");
 });
