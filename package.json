@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EllieMartin12/SE-Sum-1.git"
@@ -16,7 +19,9 @@
     "url": "https://github.com/EllieMartin12/SE-Sum-1/issues"
   },
   "homepage": "https://github.com/EllieMartin12/SE-Sum-1#readme",
-  "dependencies": {
-    "jest": "^29.7.0"
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^26.0.0"
   }
 }
