@@ -1,41 +1,56 @@
+<!-- THIS HTML CODE DEFINES THE APP LOG IN PAGE, USING INDEX.JS AND INDEX.CSS -->
+
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Specifiy character encoding, title and link to appropriate CSS -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inflight Meal Inventory Tracker</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
+<!-- The body section contains the contain that;ll be displayed -->
 <body>
   <div class="login-container">
     <div class="login-header">
       <h1>Welcome To The <br> Inflight Meal Inventory Tracker</h1>
     </div>
     <form id="loginForm" class="login-form">
+
+      <!-- Specify input containers with their error message -->
+      <!-- Input Username -->
       <div class="input-container">
         <input type="text" id="username" name="username" placeholder="Username" required />
-        <!-- Error message for username -->
+      <!-- Error Message for Username (hidden by default)-->
         <div id="usernameError" style="display:none; color: red;">Username is required</div>
       </div>
       
+      <!-- Input Password -->
       <div class="input-container">
         <input type="password" id="password" name="password" placeholder="Password" required />
-        <!-- Error message for password -->
+        <!-- Error message for password (hidden by default)-->
         <div id="passwordError" style="display:none; color: red;">Password is required</div>
       </div>
       
       <!-- Error message for invalid credentials -->
       <div id="credentialsError" style="display:none; color: red;">Invalid username or password.</div>
 
+      <!-- Create submit button -->
       <button type="submit" class="login-button">Log In</button>
     </form>
+  
+    <!-- Add link to help form -->
     <div class="help-section">
       <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZURTUxT0EzQ0swODdGUEtSVkk4NzNTNkYzUS4u" target="_blank">Having Trouble? Click here</a>
       <br>
+      <!-- Beging 'Change Language option' -->
       <a href="#">Change Language</a>
     </div>
   </div>
   
+  <!-- Link to Javascript file for user inputs-->
   <script src="index.js"></script>
 </body>
 </html>

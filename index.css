@@ -1,3 +1,6 @@
+/* THIS CSS CODE SPECIFIES THE STYLE FOR THE LOGIN PAGE OF THE WEBAPP*/
+
+/* Body Style: set the default fonts, margin and background colour */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +8,7 @@ body {
     background-color: #f2f2f2;
 }
   
+/* Specify size, location and colour of main container */
 .login-container {
     max-width: 400px;
     margin: 50px auto;
@@ -15,66 +19,74 @@ body {
     text-align: center;
 }
   
+/* Specify header colours, sizes and margins */
 .login-header h1 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 20px;
-    background-color: #FF8D8D; /* Light red background */
+    background-color: #FF8D8D; 
     padding: 10px;
-    border-radius: 5px; /* Optional: adds rounded corners */
+    border-radius: 5px; 
 }
   
+/* Arrange child elements in a vertical column, and stretch them to fill the width of the container */
 .login-form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
   
+/* Specify the size and position of the input containers */
 .input-container {
     margin-bottom: 15px;
     position: relative;
 }
   
+/* Input Field Styles */
 .input-container input {
-    width: 100%;          /* Full width */
-    padding: 15px;       /* Increased padding for larger input */
+    width: 100%;          
+    padding: 15px;       
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    box-sizing: border-box; /* Ensure padding is included in total width */
+    box-sizing: border-box; 
 }
   
+/* Change the border colour to blue when an input field is in use */
 .input-container input:focus {
     border-color: #66afe9;
     outline: none;
 }
   
+/* Hide error messages by default, and specify their colour and positioning */
 .error-message {
     display: none;
     font-size: 0.8rem;
     color: #d9534f;
-    position: absolute;
-    bottom: -20px;
-    left: 0;
+    margin-top: 20px;
+    bottom: 20px;;
 }
   
+/* Set style for log in button */
 .login-button {
     background-color: #63BD51;
     color: #fff;
     border: none;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-radius: 5px;
     cursor: pointer;
 }
   
+/* Style Links */
 .help-section a {
     display: block;
     margin-top: 15px;
     color: #007bff;
     text-decoration: none;
 }
-  
+
+/* Underline link when a user hovers over it */
 .help-section a:hover {
     text-decoration: underline;
 }
