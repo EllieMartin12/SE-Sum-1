@@ -16,8 +16,7 @@ function updateMealCount(mealType, countElement, buttonElement) {
     let count = mealType === 'chicken' ? chickenCount : spaghettiCount;
 
     if (count > 0) {
-        count--;
-        countElement.textContent = count;
+        count--; // Decrement the count
 
         // Update the count based on the meal type
         if (mealType === 'chicken') {
@@ -25,6 +24,9 @@ function updateMealCount(mealType, countElement, buttonElement) {
         } else {
             spaghettiCount = count;
         }
+
+        // Update the text content of the count element
+        countElement.textContent = count;
 
         // Set the color based on the count
         setColorBasedOnCount(countElement, count);
@@ -83,3 +85,4 @@ function initializeDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCount
 
 // 6. EXPORT FUNCTIONS FOR TESTING (if necessary)
 module.exports = { setCurrentDate, updateMealCount, disableButton, initializeDashboard };
+
