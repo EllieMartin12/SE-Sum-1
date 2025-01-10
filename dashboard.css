@@ -1,3 +1,6 @@
+/* THIS CSS CODE DEFINES THE STYLE OF THE DASHBOARD VIEW FOR THE WEBAPP. */
+
+/* Specify default margin and padding and background colour */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +8,7 @@ body {
     background-color: #f2f2f2;
 }
 
+/* Style of the outer dashboard container. E.g., this will have a white background and be 400 pixels wide. */
 .dashboard {
     text-align: center;
     width: 100%;
@@ -16,6 +20,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Specify the date font size, style and colour*/
 .date {
     font-size: 24px;
     font-weight: bold;
@@ -23,6 +28,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* Specify the flight number font size, style and colour */
 .flight-number {
     font-size: 20px;
     font-weight: bold;
@@ -30,16 +36,19 @@ body {
     margin-bottom: 20px;
 }
 
+/* Create a container to store the meal options */
 .meal-container {
     display: flex;
     justify-content: space-around;
     gap: 15px;
 }
 
+/* Center the text of each meal option */
 .meal-item {
     text-align: center;
 }
 
+/* Layout of the meal option buttons */
 .meal {
     width: 140px;
     height: 100px;
@@ -56,23 +65,27 @@ body {
     transition: transform 0.2s, background-color 0.2s;
 }
 
+/* Slightly enlarge the button when hovering over it. (Although this will be a mobile app, this adds usability for the desktop MVP). */
 .meal:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     background-color: #FB8C00;
 }
 
+/* Specify colour for alternative meal option colour */
 .meal-spaghetti {
     background-color: #66BB6A;
 }
-
+/* Specify the background colour to remain the same when hovering over buttons */
 .meal-spaghetti:hover {
     background-color: #43A047;
 }
 
+/* Style the inventory countdown*/
 .remaining {
     margin-top: 10px;
 }
 
+/* Ensure the number of meals remaining is in large, bold text, following by the word 'Remaining' printed smaller */
 .remaining-number {
     font-size: 48px; 
     font-weight: bold;
