@@ -136,7 +136,7 @@ function validateCredentials(username, password, validUsername, validPassword) {
       isValid = false;
   // Next, check if username matches valid username
   } else if (username !== validUsername) {
-      errorMessage = "Invalid username";
+      errorMessage = "Invalid Username or Password";
       isValid = false;
   }
 
@@ -147,7 +147,7 @@ function validateCredentials(username, password, validUsername, validPassword) {
       isValid = false;
   // Check if password matches valid password
   } else if (password !== validPassword) {
-      errorMessage = "Invalid password";
+      errorMessage = "Invalid Username or Password";
       isValid = false;
   }
 
