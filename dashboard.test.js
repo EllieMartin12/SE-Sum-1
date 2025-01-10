@@ -7,21 +7,39 @@ test("basic test", () => {
 
 /* 2. TESTING THE DATE FUNCTION - dashboard.js should output todays date */
 
-// Import the function to test from dashboard.js
-const { setCurrentDate } = require('./dashboard');
+// Import the funcs to test from dashboard.js
+const { setCurrentDate, updateMealCount } = require('./dashboard');
 
-test("Correct Date Displayed", () => {
-    // Mock a DOM element for the date
-    const mockDateElement = { textContent: "" };
 
-    // Call the function with the mocked element
-    setCurrentDate(mockDateElement);
+describe("Dashboard Functions", () => {
+    test("Correct Date Displayed", () => {
+        // Create a mock element for the date
+        const mockDateElement = { textContent: "" };
+        // Call the function with the mocked element
+        setCurrentDate(mockDateElement);
 
-    // Get today's date in the expected format
-    const currentDate = new Date();
-    const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
-    const expectedDate = currentDate.toLocaleDateString('en-UK', options);
+        // Get today's date in the expected format
+        const currentDate = new Date();
+        const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+        const expectedDate = currentDate.toLocaleDateString('en-UK', options);
 
-    // Check if the date was set correctly
-    expect(mockDateElement.textContent).toBe(expectedDate);
+        // Validate if the date was returned correctly
+        expect(mockDateElement.textContent).toBe(expectedDate);
+    });
+
+    /* 3. TESTING THE MEAL INVENTORY COUNTER - the count should decrease by 1 each time the corresponding button is clicked */
+
+    test("Update Meal Count - Chicken", () => {
+        // Mock elements for count and button
+        const mockCountElement = { textContent: "6" };
+        const mockButtonElement = { disabled: false, style: { backgroundColor: "", cursor: "" } };
+
+        // Call the function with mocked elements
+        updateMealCount('chicken', mockCountElement, mockButtonElement);
+
+        // Verify the count is decremented
+        expect(mockCountElement.textContent).toBe(5);
+        // Verify the button is still enabled
+        expect(mockButtonElement.disabled).toBe(false);
+    });
 });

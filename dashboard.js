@@ -3,12 +3,11 @@
 // 1. CREATE A FUNCTION TO SET THE DATE TO TODAY'S DATE
 function setCurrentDate(dateElement) {
     const currentDate = new Date();
-    // Specify date format
     const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
     dateElement.textContent = currentDate.toLocaleDateString('en-UK', options);
 }
 
-// 2. HARD CODE MEAL INVENTORY (in later iterations of the app, users will have the ability to alter this themselves.)
+// 2. HARD CODE MEAL INVENTORY
 let chickenCount = 6;
 let spaghettiCount = 11;
 
@@ -45,15 +44,15 @@ function disableButton(buttonElement) {
 function initializeDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCountElement, spaghettiCountElement) {
     setCurrentDate(dateElement);
 
-    chickenBtn.addEventListener('click', () =>
-        updateMealCount('chicken', chickenCountElement, chickenBtn)
-    );
-    spaghettiBtn.addEventListener('click', () =>
-        updateMealCount('spaghetti', spaghettiCountElement, spaghettiBtn)
-    );
+    chickenBtn.addEventListener('click', () => {
+        console.log('Chicken button clicked'); // Debugging log
+        updateMealCount('chicken', chickenCountElement, chickenBtn);
+    });
+    spaghettiBtn.addEventListener('click', () => {
+        console.log('Spaghetti button clicked'); // Debugging log
+        updateMealCount('spaghetti', spaghettiCountElement, spaghettiBtn);
+    });
 }
 
-// 6. EXPORT FUNCTIONS FOR TESTING
+// 6. EXPORT FUNCTIONS FOR TESTING (if necessary)
 module.exports = { setCurrentDate, updateMealCount, disableButton, initializeDashboard };
-
-
