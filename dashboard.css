@@ -87,16 +87,29 @@ body {
 
 /* Ensure the number of meals remaining is in large, bold text, following by the word 'Remaining' printed smaller */
 .remaining-number {
-    font-size: 48px; 
+    font-size: 55px; 
     font-weight: bold;
     color: #333; /* Default color will be overridden by JavaScript */
     line-height: 1;
     transition: color 0.3s ease; /* Add transition for smooth color change */
 }
 
-
 .remaining-text {
     font-size: 14px;
     font-weight: bold;
     color: #555;
+}
+
+/* Style Links */
+.feedback a {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Underline link when a user hovers over it */
+.feedback a:hover {
+    text-decoration: underline;
 }
