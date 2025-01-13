@@ -3,7 +3,9 @@
 <details>
 <summary>User Documentation</summary>
 <br>
-![Screen Recording 2025-01-13 at 18 48 54 2](https://github.com/user-attachments/assets/88509ac3-2fd9-4cd0-8c22-6dc607238eaf)
+  
+![GIF](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/App%20Demo.gif)
+  
 
 </details>
   
