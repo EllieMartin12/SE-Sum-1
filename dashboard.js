@@ -29,7 +29,7 @@ function updateMealCount(mealType, countElement, buttonElement) {
         countElement.textContent = count;
 
         // Set the color based on the count
-        setColorBasedOnCount(countElement, count);
+        setColourBasedOnCount(countElement, count);
 
         // Disable button if count reaches zero
         if (count === 0) {
@@ -46,7 +46,7 @@ function disableButton(buttonElement) {
 }
 
 // Function to set the color based on the count
-function setColorBasedOnCount(countElement, count) {
+function setColourBasedOnCount(countElement, count) {
     // Define thresholds
     const maxCount = 15; // Maximum count
 
@@ -66,12 +66,12 @@ function setColorBasedOnCount(countElement, count) {
 }
 
 // 5. EVENT INITIALIZATION
-function initializeDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCountElement, spaghettiCountElement) {
+function initialiseDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCountElement, spaghettiCountElement) {
     setCurrentDate(dateElement);
 
     // Set initial colors based on the initial counts
-    setColorBasedOnCount(chickenCountElement, chickenCount);
-    setColorBasedOnCount(spaghettiCountElement, spaghettiCount);
+    setColourBasedOnCount(chickenCountElement, chickenCount);
+    setColourBasedOnCount(spaghettiCountElement, spaghettiCount);
 
     chickenBtn.addEventListener('click', () => {
         console.log('Chicken button clicked'); // Debugging log
@@ -84,5 +84,5 @@ function initializeDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCount
 }
 
 // 6. EXPORT FUNCTIONS FOR TESTING (if necessary)
-module.exports = { setCurrentDate, updateMealCount, disableButton, initializeDashboard };
+module.exports = { setCurrentDate, updateMealCount, disableButton, initialiseDashboard };
 
