@@ -1,9 +1,18 @@
 # Software Engineering Summative 1: The Development of an Inflight Meal Inventory Tracking App.
 
-## User Documentation
+<details>
+<summary>User Documentation</summary>
+<br>
 ![Screen Recording 2025-01-13 at 18 48 54 2](https://github.com/user-attachments/assets/88509ac3-2fd9-4cd0-8c22-6dc607238eaf)
 
-## Technical Documentation
+</details>
+  
+<details>
+<summary>Technical Documentation</summary>
+<br>
+
+</details>
+  
 
 <details>
 <summary>Introduction</summary>
@@ -13,10 +22,11 @@ The oligopolistic nature of the modern airline industry intensifies competition 
 One aspect of customer experience requiring improvement is catering. Whilst the meals themselves consistently receive high feedback, the coordination of service on board is poor. Currently, cabin crew manually check which meals are on offer, and the abundance of each, creating opportunity for miscounting and miscommunication between colleagues. Too often are passengers promised meals which are out of stock, served cold food, or not had options explained clearly. 
 
 Consequently, this project aims to develop an app that’ll enable cabin crew to view and edit real-time meal inventory statuses. With stock levels available at a glance, the need to consult colleagues or rummage through trolleys is eliminated. This will empower them to offer meal choices with greater accuracy, ensuring they can uphold their commitments to passengers, and serve more people faster, boosting CSAT for the airline. 
+</details>
 
 <details>
-
-### Use of Agile Methods
+<summary>Use of Agile Methods</summary>
+<br>
 The agile philosophy is the ability to create and respond to change. This approach was formally introduced in 2001 with the creation of the symbolic Agile Manifesto, which emphasises flexibility, collaboration and iterative progress. 
 
 Agile techniques have been hugely successful in the software development industry, revolutionising project delivery. By fostering collaboration, adaptability and faster times-to-market, companies worldwide are experiencing enhanced productivity and customer satisfaction. This widespread adoption of the technique underscores agile’s effectiveness in driving innovation, helping companies establish a competitive edge (Hooda, et al., 2023). 
@@ -25,8 +35,11 @@ Hence, for this project, I’ll be embracing the agile framework to help produce
 To implement agile principles in the project, I have utilised GitHub as a project management tool. Here, project workload is broken down into manageable tasks called issues, which can be assigned to and viewed by all team members. These issues have then been logged into sprints, providing a structured timeline for the project. By planning value delivery at the end of each sprint, I can ensure the project remains focused. Issues are also tracked via KanBan boards, providing a visual representation of task progression. This maintains transparency and clarity across the team, allowing bottlenecks to be clearly identified and stakeholders to remain updated on the apps progress (Ashmore and Runyan, 2014). 
 
 Below is an example of a retrospective carried out at the end of sprint 1.  This creates space to reflect on progress, discuss working habits and set targets for the next sprint. All of which continuously shape the team into more efficient software developers, and hence leads to the production of a more successful product.
-
-### Project Scoping Methods
+</details>
+  
+<details>
+<summary>Project Scoping Methods</summary>
+<br>
 Design thinking is a user-centred approach to innovation that establishes effective business models by focusing on the needs of people. These methods allow developers a deep understanding to the needs and challenges their stakeholders face, sparking creative solutions in early stages of design, and resulting in a highly functional product. Adopting this approach for the meal inventory app ensures the design is supplemented by a mindset that’ll constantly assess its viability. 
 
 In particular, design thinking involves empathising with stakeholders to understand their workflows, habits and frustrations. Hence, following some user research, the image below portrays an empathy map. This collaborative visualisation articulates our target user’s (cabin crew) environment, which can be mapped to formulate the requirements of our app, and aid future decision making: 
@@ -47,8 +60,11 @@ These requirements are structured using a Now, Next, Later framework, offering c
 
 ![Meal Inventory App - Project Scoping: NOW NEXT LATER](https://github.com/user-attachments/assets/a26bd1d6-c29d-4fe2-99a1-1f1bb2fc7f17)
 _Figure 3: A 'Now, Next, Later' visual to portray how and when the  prioritised requirements for the app will be met (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
-
-### Designs & Prototypes
+</details>
+  
+<details>
+<summary>Designs & Prototypes</summary>
+<br>
 Design bridges the gap between conceptual ideas and functional application. Hence, physical models such as mock-ups and prototypes allow developers to visualise and test their ideas before building the final product. This not only facilitates valuable user feedback, but also mitigates the risk of investing extensive resources into a design that may prove unsuccessful. 
 Therefore, I first took initial ideas and sketched a low-fidelity prototype. This isn’t faithful to details of the look, feel and behaviour of the app, but rather gives a high-level abstract view of the intended design, which (at this point) is subject to change: 
 
@@ -89,8 +105,11 @@ Using Figma’s previewing ability, the following video demonstrates the app pro
 _Figure 8: A GIF demonstration of the Apps Prototype. To view this in video form (which is also slightly slower), please click here:_ [DropBox Link to Video](https://www.dropbox.com/scl/fi/dmtddlj5gvi7umy6c5ta6/App-Prototype-Demo-Figma.mov?rlkey=ghj9ta90h2gkjdgs95zsftwl3&st=f7d4qckz&dl=0)
 
 This prototype acts as a tangible platform for testing and refining functionality, setting a solid foundation for the successful launch of the application. Without which, we risk misaligned visions, poor usability, and wasted time and costs to the company. 
-
-### Building the MVP
+</details>
+  
+<details>
+<summary>Building the MVP</summary>
+<br>
 By leveraging the insights gained through earlier user research, such as the strategic Now, Next, Later diagram, the features of the MVP could be defined. This is the minimum viable product: the simplest version of the app possible, that’ll still attract users and add business value. Therefore, the MVP of the inventory tracking app would simply consist of a log in page (with a company-wide log in), as well as the ability to view and decrease inventory of meals on board a particular flight. In future iterations, the app will evolve to become more inclusive, and insightful by scaling to more flights.
 
 Firstly, I wrote the CSS and HTML for the user-log in page. Each of these are foundational building blocks to any web app: HTML gives the structure and content of the view, whilst CSS makes the app more visually appealing by defining its style. Next, Javascript is used to make the app more dynamic anf functional. Here, I added user authentication and user interaction handling (e.g., ensuring buttons are clickable and login details are processed). I chose a modular approach to ease the debugging and maintainability of the code later on. 
@@ -250,8 +269,19 @@ function initialiseDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCount
     });
 }
 ```
+</details>
+  
+<details>
+<summary>Testing</summary>
+<br>
 
-## Testing the App
+</details>
+
+<details>
+<summary>Evaluation & Next Steps</summary>
+<br>
+
+</details>
 
 
 
