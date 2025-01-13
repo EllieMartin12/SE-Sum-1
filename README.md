@@ -4,14 +4,100 @@
 <summary>User Documentation</summary>
 <br>
   
-![GIF](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/App%20Demo.gif)
+ ## Getting Started
+
+  Please Click [here](https://elliemartin12.github.io/SE-Sum-1/) To Access The Application
+
+  To log in, please use the following credentials:
+
+  **Username: John_Smith**
   
+  **Password: HelloBA123**
+
+  How to use the app:
+  1. Click the link log in with the above credentials
+  2. View the current inventory of each meal type on the given flight
+  3. When a customer orders a meal, click it to decrease its inventory
+  4. Monitor stock levels via the colour-coded indicators.
+
+  Please watch the video below for a demo on how to use this app: 
+![GIF](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/App%20Demo.gif)
+
+  ## App Features
+  1. A User Log-in Page
+  2. A Meal Inventory Tracking View
+
+ ## Requirements
+ When using the app, please ensure you are viewing on your desktop or mobile and have an internet connection. 
+
+ ## Troubleshooting
+ Problem: "The app layout looks broken!"
+ Solution: Please ensure you are viewing in Google Chrome 
+
+ ## FAQs
+ **Q: Where can I give you my feedback?**
+ A: Simply click on the feedback form link in the app to log your comments, and we will respond shortly 😊
 
 </details>
   
 <details>
 <summary>Technical Documentation</summary>
 <br>
+
+## Project Structure
+The repository comprises of the following key components:
+
+- **`assets/`:** Directory containing all images and GIFs
+  
+**Login Page**
+- **`index.html`:** HTML code for login page
+
+- **`index.css`:** CSS code for login page
+
+- **`index.js`:** JavaScript code for login page
+
+- **`index.test.js`:** JavaScript code to test functionality of login page
+
+**Dashboard Page**
+- **`dashboard.html`:** HTML code for dashboard 
+
+- **`dashboard.css`:** CSS code for dashboard 
+
+- **`dashboard.js`:** JavaScript code for dashboard 
+
+- **`dashboard.test.js`** JavaScript code to test functionality of dashboard
+
+  ## Set Up
+
+  **Prequisites**:
+  - Node.js v16 or later
+  - npm
+  - Jest
+    
+  To set up the project locally:
+
+  1. **Clone the Repository**
+     
+     ```bash
+     git clone https://github.com/EllieMartin12/SE-Sum-1.git
+     ```
+  2. **Install Dependencies**
+
+     ```bash
+     npm install
+     npm install --save-dev jest
+     ```
+  
+
+  ## Testing
+  This project uses Jest for unit testing, specified in `package.json`. To run the unit tests:
+
+  ```bash
+  npm test
+  ```
+
+ 
+     
 
 </details>
   
