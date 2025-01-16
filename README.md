@@ -112,15 +112,42 @@ Consequently, this project aims to develop an app that’ll enable cabin crew to
 <details>
 <summary>Use of Agile Methods 🏃‍♀️‍➡️ </summary>
 <br>
-The agile philosophy is the ability to create and respond to change. This approach was formally introduced in 2001 with the creation of the symbolic Agile Manifesto, which emphasises flexibility, collaboration and iterative progress. 
+The agile philosophy is the ability to create and respond to change. This approach was formally introduced with the creation of the Agile Manifesto, emphasis flexibility, collaboration and iterative progress.
 
-Agile techniques have been hugely successful in the software development industry, revolutionising project delivery. By fostering collaboration, adaptability and faster times-to-market, companies worldwide are experiencing enhanced productivity and customer satisfaction. This widespread adoption of the technique underscores agile’s effectiveness in driving innovation, helping companies establish a competitive edge. 
+Agile techniques have been hugely successful in the software development industry, revolutionising project delivery. By fostering collaboration, adaptability and faster times-to-market, companies worldwide are experiencing enhanced productivity and customer satisfaction, helping companies establish a competitive edge.
 
-Hence, for this project, I’ll be embracing the agile framework to help produce a more user-centric solution, within a culture of teamwork and continuous user feedback. Unlike the traditional waterfall approach, agile’s iterative nature ensures incremental delivery of value, providing a simple, immediate solution that’ll be iteratively improved. Meanwhile, the value from a more linear approach is delayed until it’s end – a risk that could be costly if this final product has misaligned deliverables with the stakeholders.
+Hence, for this project, I’ve embraced the agile framework to produce a more user-centric solution, within a culture of teamwork and continuous user feedback. Unlike the traditional waterfall approach, agiles iterative nature ensures incremental delivery of value, providing a simple, immediate solution that’ll be iteratively improved. Meanwhile, the value from a more linear approach is delayed until it’s end – a risk that could be costly as it’s often more beneficial to deliver some sense of value quicker. This delay also increases the likelihood the final app has misaligned deliverables with the stakeholders.
 
-To implement agile principles in the project, I have utilised GitHub as a project management tool. Here, project workload is broken down into manageable tickets (issues). These issues have then been logged into sprints, providing a structured timeline for the project. By planning value delivery at the end of each sprint, I can ensure the project remains focused. Issues are also tracked via KanBan boards, providing a visual representation of task progression. In the workplace, this maintains transparency and clarity across the team, allowing bottlenecks to be clearly identified and stakeholders to remain updated on the apps progress. 
+To implement agile principles in the project, I've utilised GitHub's Project management capabilities: 
 
-Below is an example of a retrospective carried out at the end of sprint 1.  This creates space to reflect on progress, discuss working habits and set targets for the next sprint. All of which continuously shape the team into more efficient software developers, and hence leads to the production of a more successful product.
+## Issues
+
+Workload has been broken down into manageable tickets called issues:
+![Example Issue](https://github.com/user-attachments/assets/9f04db72-659d-4c4e-90cf-0745fa1779a8)
+_**Figure 1:**_ An example issue, this one to build the user log in page for the app. Each issue has an acceptance criteria.
+
+Issues are labelled according to their priority and SDLC phase: 
+
+**Labels 🏷️**
+
+<img width="683" alt="Screenshot 2025-01-16 at 19 35 42" src="https://github.com/user-attachments/assets/b4dae5c0-99e6-4c10-9edf-1c7339b50c36" />
+
+_**Figure 2:** The strategic categorisation of issues enables team members to quickly identify critical tasks versus those that can be scheduled for later. It also provides some context to the task without having to read the entire issue (a useful tool for busy project managers in the workplace)._
+
+## Sprints
+
+These issues have been logged into sprints, which provide a clear and organised timeline for the project. This not only keeps the project focused, but ensures value is consistently delivered to stakeholders: 
+
+![Sprint Planning](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/Example%20Sprints.jpg)
+_**Figure 3:** Example sprint planning. This lays out a clear project roadmap, allowing team members to visually see when issues will be worked on._
+
+## Kanban Board
+
+Additionally, a Kanban board tracks issues, providing a visual representation of task progression. Issues yet to be addressed lie in the backlog, where they're then reprioritised and moved accordingly at the beginning of each sprint. 
+
+![Kanban Board](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/Kanban%20Board.jpg)
+_**Figure 4:** Use of a KanBan board to easily see the statuses of tasks at a glance. In a multi-disciplinary team, this acts as a vital tool to promote transparency towards the current state of the project, and clarity on who is working on what._ 
+
 </details>
   
 <details>
