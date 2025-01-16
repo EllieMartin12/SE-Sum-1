@@ -96,14 +96,11 @@ The repository comprises of the following key components:
   npm test
   ```
 
- 
-     
-
 </details>
   
 
 <details>
-<summary>Introduction 📝 </summary>
+<summary>Project Introduction 📝 </summary>
 <br>
 The oligopolistic nature of the modern airline industry intensifies competition amongst its most dominant firms, making them interdependent on one another, and bringing about the need for strategic behaviour. As various airlines fly the same routes, product differentiation can only occur via customer experience. Hence, in such an environment, it’s crucial to maintain a high customer satisfaction (CSAT) to not only increase customer retention but to improve brand image, attracting new customers and increasing the airlines market power. Subsequently, establishing loyalty in customers enables a shift towards more inelastic prices, further increasing revenue. 
 
@@ -134,21 +131,21 @@ Design thinking is a user-centred approach to innovation that establishes effect
 In particular, design thinking involves empathising with stakeholders to understand their workflows, habits and frustrations. Hence, following some user research, the image below portrays an empathy map. This collaborative visualisation articulates our target user’s (cabin crew) environment, which can be mapped to formulate the requirements of our app, and aid future decision making: 
 
 ![Meal Inventory App - Project Scoping: EMPATHY MAP](https://github.com/user-attachments/assets/bb7bc84d-9c31-4929-a737-e8bec288d5a3)
-_Figure 1: An empathy map created in Miro. A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
+_**Figure 1:** An empathy map created in Miro. A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 
 As shown, the app’s target persona manages numerous responsibilities, from ensuring safety and security to delivering exceptional customer service, all within a tight, crowded workspace. The fast-paced, noisy environment, coupled with the pressure of customer demands, could easily overwhelm crew members, complicating tasks like meal inventory tracking or communicating with colleagues. 
 
 In the ideation phase, these pains and gains translate into key requirements for the app: it must be simple, intuitive and stress-free to use, seamlessly synchronising across devices to reduce reliance on verbal communication amongst staff. Insights from the empathy map further highlight the priority of these requirements, outlined in the diagram below: 
 
 ![Meal Inventory App - Project Scoping: PROJECT REQUIREMENTS](assets/Meal%20Inventory%20App%20-%20Project%20Scoping%20PROJECT%20REQUIREMENTS.jpeg)
-_Figure 2: The functional and non-functional requirements of the project, as identified from the empathy map findings, prioritised (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
+_**Figure 2:** The functional and non-functional requirements of the project, as identified from the empathy map findings, prioritised (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 
 We can conclude the highest priority is to deliver an app with a simple inventory view, and editing functionality. Next, the focus should shift to enhancing the usability and accessibility through colour coding, visualisations and multi-language support. In the long term, the app brings potential to expand its audience to include caterers and managers in the airline, offering insights into product demand. This would enable the company to make informed decisions about supplier partnerships and meal loading quantities, better aligning onboard availability to passenger preferences. These improvements would not only minimise waste – supporting the airline's net carbon zero sustainability goal, but also enhance customer satisfaction and retention. 
 
 These requirements are structured using a Now, Next, Later framework, offering clear expectations, success criteria, and a roadmap for the project’s future development. This also helps shape the components of each sprint when project planning: 
 
 ![Meal Inventory App - Project Scoping: NOW NEXT LATER](assets/Meal%20Inventory%20App%20-%20Project%20Scoping%20NOW%20NEXT%20LATER.jpeg)
-_Figure 3: A 'Now, Next, Later' visual to portray how and when the  prioritised requirements for the app will be met (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
+_**Figure 3:** A 'Now, Next, Later' visual to portray how and when the  prioritised requirements for the app will be met (created in Miro). A link to the Miro Board can be found here:_ [View Miro Board](https://miro.com/app/board/uXjVLyuCzXA=/?share_link_id=371914488981)
 </details>
   
 <details>
@@ -160,14 +157,14 @@ Therefore, I first took initial ideas and sketched a low-fidelity prototype. Thi
 ![Lo-fi Design](https://github.com/EllieMartin12/SE-Sum-1/blob/EllieMartin12-Prototype/LO-FI%20Design.jpg) 
 
 
-_Figure 4: An initial, low fidelity sketch of the app._
+_**Figure 4:** An initial, low fidelity sketch of the app._
 
 As shown, the low-fi design indicates a clear, user-friendly design. Equipped with a straightforward login page, the app will then transition to an inventory tracker where meal counts are logically and visually shown. The use of colours helps differentiate between meals, enhancing usability, whilst pie charts allow data to be interpreted at a glance.
 
 After presenting this sketch to stakeholders and receiving positive feedback, I progressed to creating a more high-fidelity wireframe using Figma (Figure 5). This tool delivers an interactive, digital prototype, enabling me to reach a high degree of precision that aligns with the functional objectives of the app. By stimulating user experience (UX), developers are provided with a clear vision of the end goal throughout the coding process, whilst stakeholders can explore and evaluate how the final product will behave and respond to their inputs, fostering a deeper understanding and stronger alignment with user expectations.
 
 ![Figma Screen](https://github.com/user-attachments/assets/af938082-93b7-4713-8d5a-4e42110211c1)
-_Figure 5: A high fidelity prototype of the app, developed in Figma. A Link to this design can be found here:_ [View Figma Design ](https://www.figma.com/proto/4e4nEptFLp7OykTWSjwz27/SE-Summative-1?node-id=601-9&t=YuXhqKT2aP9C4IYl-1)
+_**Figure 5:** A high fidelity prototype of the app, developed in Figma. A Link to this design can be found here:_ [View Figma Design ](https://www.figma.com/proto/4e4nEptFLp7OykTWSjwz27/SE-Summative-1?node-id=601-9&t=YuXhqKT2aP9C4IYl-1)
 
 As illustrated, multiple views have been designed to showcase the apps appearance and functionality, meeting many of the goals outlined above. 
 
@@ -175,7 +172,7 @@ As illustrated, multiple views have been designed to showcase the apps appearanc
 
 <img width="529" alt="image" src="https://github.com/user-attachments/assets/2d5478dc-4fc2-4c1c-a570-d7e9fb1ede20" />
 
-_Figure 6: To improve user experience, a form has been created where cabin crew can log issues they're experiencing, particularly with logging in. To view the form, click here:_ [View Issue Tracking Form](https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZURTUxT0EzQ0swODdGUEtSVkk4NzNTNkYzUS4u)
+_**Figure 6:** To improve user experience, a form has been created where cabin crew can log issues they're experiencing, particularly with logging in. To view the form, click here:_ [View Issue Tracking Form](https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZURTUxT0EzQ0swODdGUEtSVkk4NzNTNkYzUS4u)
 
 2. Upon logging in, the dashboard provides an intuitive overview of meal inventory, aligned with common reading habits. Content is arranged in order of decreasing significance, guiding the viewers’ attention towards the most critical information, and hence allowing crew to easily scan and interpret the data quickly (a key requirement for our ‘on-the-go’, busy persona). E.g., key information such as date and flight number are prominently displayed at the top, allowing crew to ensure the app is up-to-date. The rest of the content includes example meal options which’ll be expressed as clickable buttons to automatically subtract one from inventory. Inventory levels are then displayed in large, bold numbers, with a green-red colour scheme that visually reflects remaining quantities.
 
@@ -185,13 +182,13 @@ _Figure 6: To improve user experience, a form has been created where cabin crew 
 
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/d79f447b-092c-4507-a331-d3dfdba0ba04" />
 
-_Figure 7: A vital part of the iterative development process is continuous feeddback. Hence, the prototype includes a form where users can express their likes and dislikes on the product. To view the form, click here:_ [View Feedback Form](https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZUMldFRlVZUzdZTVBXMFI0S1MzUTdIRzBLTy4u)
+_**Figure 7:** A vital part of the iterative development process is continuous feeddback. Hence, the prototype includes a form where users can express their likes and dislikes on the product. To view the form, click here:_ [View Feedback Form](https://forms.office.com/Pages/ResponsePage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yjSGYWQRBdPi8-BeaKCHhZUMldFRlVZUzdZTVBXMFI0S1MzUTdIRzBLTy4u)
 
 Using Figma’s previewing ability, the following GIF demonstrates the app prototype, displaying how the final product will appear on mobiles: 
 
 ![GIF](https://github.com/EllieMartin12/SE-Sum-1/blob/EllieMartin12-Prototype/Figma%20Design%20x1.5.gif)
 
-_Figure 8: A GIF demonstration of the Apps Prototype. To view this in video form (which is also slightly slower), please click here:_ [DropBox Link to Video](https://www.dropbox.com/scl/fi/dmtddlj5gvi7umy6c5ta6/App-Prototype-Demo-Figma.mov?rlkey=ghj9ta90h2gkjdgs95zsftwl3&st=f7d4qckz&dl=0)
+_**Figure 8:** A GIF demonstration of the Apps Prototype. To view this in video form (which is also slightly slower), please click here:_ [DropBox Link to Video](https://www.dropbox.com/scl/fi/dmtddlj5gvi7umy6c5ta6/App-Prototype-Demo-Figma.mov?rlkey=ghj9ta90h2gkjdgs95zsftwl3&st=f7d4qckz&dl=0)
 
 This prototype acts as a tangible platform for testing and refining functionality, setting a solid foundation for the successful launch of the application. Without which, we risk misaligned visions, poor usability, and wasted time and costs to the company. 
 </details>
@@ -262,11 +259,11 @@ Error handling is a vital part of the development process to ensure clarity for 
 ```
 
 ![Final Log in Page](https://github.com/user-attachments/assets/4f728530-d77c-47e2-8a93-fe0116352296)
-_Figure 9: The Finished Log in Page For The MVP_
+_**Figure 9:** The Finished Log in Page For The MVP_
 
 Once security was in place, focus shifted towards building a basic inventory tracker. Figure 10 indicates how several iterations of the interface were built. The first included several bugs such as a fixed date and lack of styling, whilst the second brought colour, better fulfilling the requirements of the app. The final version builds upon the MVP by starting to include some 'Medium' priority requirements (e.g. a feedback form and colour-changing numbers). Again, a modular approach was taken to aid readbility and foster potential collaboration. 
 ![image](https://github.com/user-attachments/assets/af5b979a-1f95-493e-9291-5e3398010aee)
-_Figure 10: The incremental development of the dashboard view_
+_**Figure 10:** The incremental development of the dashboard view_
 
 Firstly, the `setCurrentDate` function ensures the current date is always displayed at the top of the page using the `toLocaleDateString()` method. 
 ```
@@ -476,10 +473,13 @@ test("Update Meal Count - Chicken", () => {
 ```
 
   This comprehensive testing stratedgy ensures the app's core functionality is reliable and secure, producing a seamless UX for stakeholders. As the app continues development, several additional tests could be implemented to maintain its efficiency. For example, stress and load testing and evaluate the apps performance during high traffic, as well as integration testing to establish the apps capability of live-updates. 
-  
 
+### Assessing Accessibility
+Utilising Lighthouse, I can also test the accessibility of the MVP. Figure 11 displays both views have scored highly, yet could possess higher contrasting colours to better comply with WCAG standards (producing a CVD friendly view is planned for future sprints). 
 
-
+![Lighthouse for Login](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/Lighthouse%20Accessiblity%20Score%20(LogIn).jpg)
+![Lighthouse for Dashboard](https://github.com/EllieMartin12/SE-Sum-1/blob/main/assets/Lighthouse%20Accessibility%20Score%20(Dashboard).jpg)
+_**Figure 11:** Lighthouse has granted the user login page an accessibility score of 91/100, and the dashboard view 90/100._
 
 </details>
 
