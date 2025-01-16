@@ -368,6 +368,118 @@ function initialiseDashboard(dateElement, chickenBtn, spaghettiBtn, chickenCount
 <details>
 <summary>Testing 🧪</summary>
 <br>
+Testing is a critical phase of the software development lifecycle (SDLC), serving as the backbone for delivering high-quality, reliable and maintainable applications. It ensures the app performs as intended, aliging with its functional and non-functional requirements, whilst also checking the code is of high standard, adhering to best practices. This minimises the risks of creating an inefficient app, wasting resources and harming the airline’s reputation. 
+
+Utilising Test-Driven Development (TDD) principles using Jest enabled a more iterative and agile workflow. Hence, app development, unit test creation and refactoring formed a cycle that outputted a reliable and robust codebase, which can be smoothly scaled to house more flights in future iterations. 
+
+Firstly, I conducted static analysis to eliminate unused variables, neaten syntax and add comments: all of which will enable the code to reach a higher degree of reusability and developer confidence. Next, I leveraged unit tests to simulate various real-world scenarios, verifying edge cases and ensuring the functionality of each page behaved as expected. By continuously running these tests, I could make incremental changes confidently, knowing existing features could remain unaffected. 
+
+### Login Page Unit Tests
+
+1. A simple smoke test confirms Jest is operational:
+
+```
+test("basic test", () => {
+    expect(2 + 6).toBe(8);
+});
+```
+
+2. The following tests validate the functionality of the login page, ensuring the credential validation function adheres to expectations. Several combinations of correct and incorrect usernames and passwords are tested to minimise future unexpected behaviour, as well as guarantee security assurance. As an airline, maintaining security is paramount to avoid malicious exploitations.
+
+```
+/* 2. TESTING POSSIBLE INPUT USERNAMES AND PASSWORDS */
+
+// Import the function to test from index.js
+const { validateCredentials } = require("./index.js");
+
+// Test 1: Ensure that the valid username and password work
+test("Valid Username & Password", () => {
+    const { isValid, errorMessage } = validateCredentials("John_Smith", "HelloBA123", "John_Smith", "HelloBA123");
+    expect(isValid).toBe(true);
+    expect(errorMessage).toBe("");
+});
+
+// Test 3: Check an invalid password doesn't work, despite the correct username
+test("Invalid Username", () => {
+    const { isValid, errorMessage } = validateCredentials("wrongUsername", "HelloBA123", "John_Smith", "HelloBA123");
+    expect(isValid).toBe(false);
+    expect(errorMessage).toBe("Invalid Username or Password");
+});
+
+// Test 3: Check an invalid password doesn't work, despite the correct username
+test("Invalid Password", () => {
+    const { isValid, errorMessage } = validateCredentials("John_Smith", "wrongPassword", "John_Smith", "HelloBA123");
+    expect(isValid).toBe(false);
+    expect(errorMessage).toBe("Invalid Username or Password");
+});
+
+// Test 4: Ensure that the credential validation is case sensitive
+test("Lower Case Credentials", () => {
+    const { isValid, errorMessage } = validateCredentials("john_smith", "HelloBA123", "John_Smith", "HelloBA123");
+    expect(isValid).toBe(false);
+    expect(errorMessage).toBe("Invalid Username or Password");
+});
+```
+
+### Dashboard Page Unit Tests
+
+1. Another smoke test:
+```
+   test("basic test", () => {
+    expect(2 + 6).toBe(8);
+});
+```
+
+2. This test validates the `setCurrentDate` function. An accurate, well displayed date boosts UX, installing trust in app data.
+```
+test("Correct Date Displayed", () => {
+        // Create a mock element for the date
+        const mockDateElement = { textContent: "" };
+        // Call the function with the mocked element
+        setCurrentDate(mockDateElement);
+
+        // Get today's date in the expected format
+        const currentDate = new Date();
+        const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+        const expectedDate = currentDate.toLocaleDateString('en-UK', options);
+
+        // Validate if the date was returned correctly
+        expect(mockDateElement.textContent).toBe(expectedDate);
+    });
+```
+
+ 3. Validate `updateMealCount` function, which dynamically manages meal inventory. Here, I check the meal count decreases each time the functions triggered (when the button is clicked). It also checks the button is only disabled when count reaches 0, and that colours correctly change to grant visual feedback to users. 
+
+```
+test("Update Meal Count - Chicken", () => {
+        // Mock elements for count and button
+        const mockCountElement = { 
+            textContent: "6", 
+            style: {} // Add a style object here
+        };
+        const mockButtonElement = { 
+            disabled: false, 
+            style: { backgroundColor: "", cursor: "" } 
+        };
+    
+        // Call the function with mocked elements
+        updateMealCount('chicken', mockCountElement, mockButtonElement);
+    
+        // Verify the count is decremented
+        expect(mockCountElement.textContent).toBe(5); // Note: textContent should be a string
+        // Verify the button is still enabled
+        expect(mockButtonElement.disabled).toBe(false);
+    
+        // Verify the color has been set based on the count
+        expect(mockCountElement.style.color).toBe("rgb(170, 0, 0)"); // Adjust this value based on the expected color
+    });
+```
+
+  This comprehensive testing stratedgy ensures the app's core functionality is reliable and secure, producing a seamless UX for stakeholders. As the app continues development, several additional tests could be implemented to maintain its efficiency. For example, stress and load testing and evaluate the apps performance during high traffic, as well as integration testing to establish the apps capability of live-updates. 
+  
+
+
+
 
 </details>
 
