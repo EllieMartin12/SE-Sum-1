@@ -46,7 +46,14 @@
 <summary>Technical Documentation 🔧</summary>
 <br>
 
-## Project Structure 🧱
+## Technical Stack 🧱
+- JavaScript
+- HTML (Hypertext Markup Language)
+- CSS (Cascading Style Sheets)
+- GitHub
+- Visual Studio Code
+
+## Project Structure 🏗
 The repository comprises of the following key components:
 
 - **`assets/`:** Directory containing all images and GIFs
